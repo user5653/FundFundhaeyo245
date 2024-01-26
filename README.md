@@ -46,7 +46,7 @@
   
    &nbsp;&nbsp;&nbsp; - <!-- TBU : 담당 역할 ex. 메인페이지 -->
 
-- 💚 송현석 <!-- () -->
+- 💚 송현석 (https://github.com/JustinHyunSuk)
 
    &nbsp;&nbsp;&nbsp; - <!-- TBU : 담당 역할 ex. 메인페이지 -->
   
@@ -54,7 +54,7 @@
   
    &nbsp;&nbsp;&nbsp; - <!-- TBU : 담당 역할 ex. 메인페이지 -->
 
-- 💛 어수지 <!-- () -->
+- 💛 어수지 (https://github.com/Suuujii)
 
    &nbsp;&nbsp;&nbsp; - <!-- TBU : 담당 역할 ex. 메인페이지 -->
   
@@ -62,7 +62,7 @@
   
    &nbsp;&nbsp;&nbsp; - <!-- TBU : 담당 역할 ex. 메인페이지 -->
 
-- 🧡 임정현 <!-- () -->
+- 🧡 임정현 (https://github.com/user5653)
 
    &nbsp;&nbsp;&nbsp; - <!-- TBU : 담당 역할 ex. 메인페이지 -->
   
