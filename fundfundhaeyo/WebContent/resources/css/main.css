@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* 틀 */
+/* 전체 레이아웃 */
+
+/* 화면고정 */
+.main_outer{min-width: 1669px; width: 100%; height: 3500px; margin: auto; padding: 0 200px;}
+
+/* 공용 css */
+.ca{
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+}
+
+.ptitle{color: black;}
+.percentage{font-size: 13px; font-weight: 600; color: blue;}
+.fl{float: left;}
+.title_text{line-height: 280%;}
+.more_left_text{font-size: 13px; color: #0056b3; font-weight: 600; line-height: 250%; text-align: right; padding-right: 5px;}
+.more_btn{width: 100%; height: 100%; font-size: 13px; font-weight: 600; margin: 0; border: 0.5px solid lightgray; border-radius: 5px;}
+
+/* 펀딩상품 공용 css */
+.pr1{height: 10%;}
+.pr2{height: 60%;}
+.pr3{height: 30%;}
+
+.pr3_r1{height: 25%;}
+.pr3_r2{height: 50%;}
+.pr3_r3{height: 25%;}
+
+.pr3_r3_col1{width: 50%;}
+.pr3_r3_col2{width: 50%;}
+
+/* 전체 가로 */
+.ffh_wrap>div{width: 100%;}
+
+.ffh_content{height: 85%; margin-top: 150px; margin-bottom: 100px;}
+
+/* ============================ 바디 시작 ============================ */
+.ffh_content>div{width: 100%;}
+.ffh_content_adv{height: 12%;}
+.ffh_content_top{height: 28%; margin-top: 60px;}
+.ffh_frame1{height: 27%; margin: 50px 0; border-top: 0.5px solid lightgray;}
+.ffh_frame2{height: 27%; border-top: 0.5px solid lightgray;}
+
+/* adv */
+.ffh_content_adv img{width: 100%;}
+
+/* 바디 1번 */
+.ffh_content_top>div{height: 100%;}
+.ffh_content_top_left{width: 65%;}
+.ffh_content_top_middle{width: 5%;}
+.ffh_content_top_right{width: 30%;}
+
+/* 바디 1번 좌측 */
+.ffh_content_top_left>div{width: 100%;}
+.ffh_content_top_left1{height: 10%;}
+.ffh_content_top_left2{height: 90%;}
+
+.ffh_content_top_left1>div{height: 100%;}
+.ffh_content_top_left1_col1{width: 78%;}
+.ffh_content_top_left1_col2{width: 20%;}
+
+/* 바디 1번 좌측 헤더 */
+.ffh_content_top_left1_col2>div{width: 100%;}
+.ffh_content_top_left1_col2_row1{height: 50%;}
+.ffh_content_top_left1_col2_row2{height: 50%;}
+
+.ffh_content_top_left1_col2_row2>div{height: 100%;}
+.ffh_content_top_left1_col2_row2_col1{width: 60%;}
+.ffh_content_top_left1_col2_row2_col2{width: 40%;}
+
+/* 바디 1번 좌측 바디 */
+.ffh_content_top_left2>div{width: 23%; height: 50%; margin-right: 19px;}
+.ffh_content_top_left2>div>div{width: 100%;}
+.pr3_r3>div{height: 100%;}
+
+/* 바디 1번 우측*/
+.ffh_content_top_right>div{width: 100%;}
+.ffh_content_top_right_row1{height: 10%;}
+.ffh_content_top_right_row2{height: 76%;}
+.ffh_content_top_right_row3{height: 14%;}
+
+/* 바디 1번 우측 헤더 */
+.ffh_content_top_right_row1>div{height: 100%;}
+.ffh_content_top_right_row1_col1{width: 50%;}
+.ffh_content_top_right_row1_col2{width: 50%;}
+
+/* 바디 1번 우측 바디 */
+.ffh_content_top_right_row2>div{width: 100%; height: 20%;}
+.rk_r1{height: 25%;}
+.rk_r2{height: 75%;}
+.rk_r2>div{height: 100%}
+
+.rk_col1{width: 30%;}
+.rk_col2{width: 40%;}
+.rk_col2>div{width: 100%; height: 50%;}
+.rk_col3{width: 30%;}
+.rk_col3>div{width: 100%; height: 50%;}
+
+.ffh_content_top_right_row3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 바디 2번 3번 */
+.ffh_frame1>div{width: 100%;}
+.ffh_frame1_top{height: 10%;}
+.ffh_frame1_body{height: 90%;}
+
+.ffh_frame1_top>div{height: 100%;}
+.ffh_frame1_top_col1{width: 85%;}
+.ffh_frame1_top_col2{width: 15%;}
+
+.ffh_frame1_top_col2>div{width: 100%; height: 50%;}
+.ffh_frame1_top_col2_row2>div{height: 100%;}
+.ffh_frame1_top_col2_row2_left{width: 70%;}
+.ffh_frame1_top_col2_row2_right{width: 30%;}
+
+.ffh_frame1_body>div{width: 19%; height: 50%;}
+
+/* ============================ 바디 끝 ============================ */
