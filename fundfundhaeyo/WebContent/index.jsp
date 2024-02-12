@@ -1,5 +1,11 @@
+<%@page import="java.util.Date"%>
+<%@page import="java.text.SimpleDateFormat"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<% 
+   SimpleDateFormat formatter = new SimpleDateFormat("yyyy.MM.dd HH:mm");
+   String dateString = formatter.format(new Date());
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,24 +27,24 @@
 					</ul>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="resources/image/temp1.jpg" alt="">
+							<img src="resources/image/temp1.jpg" alt="TBU">
 							<div class="carousel-caption">
-							<h3>Los Angeles</h3>
-							<p>We had such a great time in LA!</p>
+							<h3>상품1 제목</h3>
+							<p>상품1 소개문구 간략히</p>
 							</div>   
 						</div>
 						<div class="carousel-item">
 							<img src="resources/image/temp2.jpg" alt="Chicago">
 							<div class="carousel-caption">
-							<h3>Chicago</h3>
-							<p>Thank you, Chicago!</p>
+							<h3>상품2 제목</h3>
+							<p>상품2 소개문구 간략히</p>
 							</div>   
 						</div>
 						<div class="carousel-item">
 							<img src="resources/image/temp3.jpg" alt="New York">
 							<div class="carousel-caption">
-							<h3>New York</h3>
-							<p>We love the Big Apple!</p>
+							<h3>상품3 제목</h3>
+							<p>상품3 소개문구 간략히</p>
 							</div>   
 						</div>
 					</div>
@@ -53,23 +59,23 @@
 			<div class="ffh_content_top fl">
 				<div class="ffh_content_top_left fl">
 					<div class="ffh_content_top_left1">
-						<div class="ffh_content_top_left1_col1 fl"><h2 class="title_text">전체 프로젝트</h2></div>
+						<div class="ffh_content_top_left1_col1 fl"><h2 class="title_text" style="margin-top: 40px;">🎈 전체 프로젝트 🎈</h2></div>
 						<div class="ffh_content_top_left1_col2 fl">
 							<div class="ffh_content_top_left1_col2_row1"></div>
 							<div class="ffh_content_top_left1_col2_row2">
-								<div class="ffh_content_top_left1_col2_row2_col1 fl more_left_text">전체 프로젝트</div>
+								<div class="ffh_content_top_left1_col2_row2_col1 fl more_left_text"><%-- 여백 --%></div>
 								<div class="ffh_content_top_left1_col2_row2_col2 fl"><a href="#"><button type="button" class="more_btn">더보기</button></a></div>
 							</div>
 						</div>
 					</div>
 					<div class="ffh_content_top_left2">
 						<div class="ffh_content_top_left2_all fl">
-							<div class="ffh_content_top_left2_p1_row1 pr1"><!-- 여백 --></div>
+							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
 								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
-								<div class="pr3_r1"><a href="#" class="ca">언더웨어</a></div>
+								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 								<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								<div class="pr3_r3">
 									<div class="pr3_r3_col1 fl"><span class="percentage">222% 달성</span></div>
@@ -78,12 +84,12 @@
 							</div>
 						</div>
 						<div class="ffh_content_top_left2_all fl">
-							<div class="ffh_content_top_left2_p1_row1 pr1"><!-- 여백 --></div>
+							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
 								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
-								<div class="pr3_r1"><a href="#" class="ca">언더웨어</a></div>
+								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 								<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								<div class="pr3_r3">
 									<div class="pr3_r3_col1 fl"><span class="percentage">511% 달성</span></div>
@@ -92,12 +98,12 @@
 							</div>
 						</div>
 						<div class="ffh_content_top_left2_all fl">
-							<div class="ffh_content_top_left2_p1_row1 pr1"><!-- 여백 --></div>
+							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
 								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
-								<div class="pr3_r1"><a href="#" class="ca">언더웨어</a></div>
+								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 								<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								<div class="pr3_r3">
 									<div class="pr3_r3_col1 fl"><span class="percentage">1541% 달성</span></div>
@@ -106,12 +112,12 @@
 							</div>
 						</div>
 						<div class="ffh_content_top_left2_all fl">
-							<div class="ffh_content_top_left2_p1_row1 pr1"><!-- 여백 --></div>
+							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
 								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
-								<div class="pr3_r1"><a href="#" class="ca">언더웨어</a></div>
+								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 								<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								<div class="pr3_r3">
 									<div class="pr3_r3_col1 fl"><span class="percentage">131% 달성</span></div>
@@ -120,12 +126,12 @@
 							</div>
 						</div>
 						<div class="ffh_content_top_left2_all fl">
-							<div class="ffh_content_top_left2_p1_row1 pr1"><!-- 여백 --></div>
+							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
 								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
-								<div class="pr3_r1"><a href="#" class="ca">언더웨어</a></div>
+								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 								<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								<div class="pr3_r3">
 									<div class="pr3_r3_col1 fl"><span class="percentage">442% 달성</span></div>
@@ -134,12 +140,12 @@
 							</div>
 						</div>
 						<div class="ffh_content_top_left2_all fl">
-							<div class="ffh_content_top_left2_p1_row1 pr1"><!-- 여백 --></div>
+							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
 								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
-								<div class="pr3_r1"><a href="#" class="ca">언더웨어</a></div>
+								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 								<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								<div class="pr3_r3">
 									<div class="pr3_r3_col1 fl"><span class="percentage">369% 달성</span></div>
@@ -148,12 +154,12 @@
 							</div>
 						</div>
 						<div class="ffh_content_top_left2_all fl">
-							<div class="ffh_content_top_left2_p1_row1 pr1"><!-- 여백 --></div>
+							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
 								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
-								<div class="pr3_r1"><a href="#" class="ca">언더웨어</a></div>
+								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 								<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								<div class="pr3_r3">
 									<div class="pr3_r3_col1 fl"><span class="percentage">250% 달성</span></div>
@@ -162,12 +168,12 @@
 							</div>
 						</div>
 						<div class="ffh_content_top_left2_all fl">
-							<div class="ffh_content_top_left2_p1_row1 pr1"><!-- 여백 --></div>
+							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
 								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
-								<div class="pr3_r1"><a href="#" class="ca">언더웨어</a></div>
+								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 								<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								<div class="pr3_r3">
 									<div class="pr3_r3_col1 fl"><span class="percentage">170% 달성</span></div>
@@ -177,94 +183,94 @@
 						</div>
 					</div>
 				</div>
-				<div class="ffh_content_top_middle fl"><!-- 여백 --></div>
+				<div class="ffh_content_top_middle fl"><%-- 여백 --%></div>
 				<div class="ffh_content_top_right fl">
 					<div class="ffh_content_top_right_row1">
 						<div class="ffh_content_top_right_row1_col1 fl">
-							<h2 class="title_text">프로젝트 랭킹</h2>
+							<h2 class="title_text" style="margin-top: 40px;">🎶 프로젝트 랭킹 🎶</h2>
 						</div>
-						<div class="ffh_content_top_right_row1_col2 fl">
-							<!-- 추후에 현재시간 표기 -->
+						<div class="ffh_content_top_right_row1_col2 fl" style="font-size: 12px; text-align: right; line-height:130px;">
+						    <span style="vertical-align: bottom;"><%= dateString %> 기준</span>
 						</div>
 					</div>
 					<div class="ffh_content_top_right_row2">
 						<div class="ffh_content_top_right_row2_rk fl">
-							<div class="rk_r1"><!--여백--></div>
+							<div class="rk_r1"><%--여백--%></div>
 							<div class="rk_r2">
 								<div class="rk_col1 fl">
 									<a href="#"><img src="resources/image/temp2.jpg" alt="" width="100px" height="90px"></a>
 								</div>
 								<div class="rk_col2 fl">
-									<div class="rk_col2_row1"><a href="#" class="ca">언더웨어</a></div>
+									<div class="rk_col2_row1"><a href="#" class="pca">언더웨어</a></div>
 									<div class="rk_col2_row2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								</div>
 								<div class="rk_col3 fl">
-									<div class="rk_col3_row1"><span class="percentage">10000% 달성</span></div>
-									<div class="rk_col3_row2"><!-- 여백 --></div>
+									<div class="rk_col3_row1" style="text-align: right"><span class="percentage">10000% 달성</span></div>
+									<div class="rk_col3_row2"><%-- 여백 --%></div>
 								</div>
 							</div>
 						</div>
 						<div class="ffh_content_top_right_row2_rk fl">
-							<div class="rk_r1"><!--여백--></div>
+							<div class="rk_r1"><%--여백--%></div>
 							<div class="rk_r2">
 								<div class="rk_col1 fl">
 									<a href="#"><img src="resources/image/temp2.jpg" alt="" width="100px" height="90px"></a>
 								</div>
 								<div class="rk_col2 fl">
-									<div class="rk_col2_row1"><a href="#" class="ca">언더웨어</a></div>
+									<div class="rk_col2_row1"><a href="#" class="pca">언더웨어</a></div>
 									<div class="rk_col2_row2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								</div>
 								<div class="rk_col3 fl">
-									<div class="rk_col3_row1"><span class="percentage">6666% 달성</span></div>
-									<div class="rk_col3_row2"><!-- 여백 --></div>
+									<div class="rk_col3_row1" style="text-align: right"><span class="percentage">6666% 달성</span></div>
+									<div class="rk_col3_row2"><%-- 여백 --%></div>
 								</div>
 							</div>
 						</div>
 						<div class="ffh_content_top_right_row2_rk fl">
-							<div class="rk_r1"><!--여백--></div>
+							<div class="rk_r1"><%--여백--%></div>
 							<div class="rk_r2">
 								<div class="rk_col1 fl">
 									<a href="#"><img src="resources/image/temp2.jpg" alt="" width="100px" height="90px"></a>
 								</div>
 								<div class="rk_col2 fl">
-									<div class="rk_col2_row1"><a href="#" class="ca">언더웨어</a></div>
+									<div class="rk_col2_row1"><a href="#" class="pca">언더웨어</a></div>
 									<div class="rk_col2_row2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								</div>
 								<div class="rk_col3 fl">
-									<div class="rk_col3_row1"><span class="percentage">3416% 달성</span></div>
-									<div class="rk_col3_row2"><!-- 여백 --></div>
+									<div class="rk_col3_row1" style="text-align: right"><span class="percentage">3416% 달성</span></div>
+									<div class="rk_col3_row2"><%-- 여백 --%></div>
 								</div>
 							</div>
 						</div>
 						<div class="ffh_content_top_right_row2_rk fl">
-							<div class="rk_r1"><!--여백--></div>
+							<div class="rk_r1"><%--여백--%></div>
 							<div class="rk_r2">
 								<div class="rk_col1 fl">
 									<a href="#"><img src="resources/image/temp2.jpg" alt="" width="100px" height="90px"></a>
 								</div>
 								<div class="rk_col2 fl">
-									<div class="rk_col2_row1"><a href="#" class="ca">언더웨어</a></div>
+									<div class="rk_col2_row1"><a href="#" class="pca">언더웨어</a></div>
 									<div class="rk_col2_row2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								</div>
 								<div class="rk_col3 fl">
-									<div class="rk_col3_row1"><span class="percentage">1699% 달성</span></div>
-									<div class="rk_col3_row2"><!-- 여백 --></div>
+									<div class="rk_col3_row1" style="text-align: right"><span class="percentage">1699% 달성</span></div>
+									<div class="rk_col3_row2"><%-- 여백 --%></div>
 								</div>
 							</div>
 						</div>
 						<div class="ffh_content_top_right_row2_rk fl">
-							<div class="rk_r1"><!--여백--></div>
+							<div class="rk_r1"><%--여백--%></div>
 							<div class="rk_r2">
 								<div class="rk_col1 fl">
 									<a href="#"><img src="resources/image/temp2.jpg" alt="" width="100px" height="90px"></a>
 								</div>
 								<div class="rk_col2 fl">
-									<div class="rk_col2_row1"><a href="#" class="ca">언더웨어</a></div>
+									<div class="rk_col2_row1"><a href="#" class="pca">언더웨어</a></div>
 									<div class="rk_col2_row2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 								</div>
 								<div class="rk_col3 fl">
-									<div class="rk_col3_row1" style="display: grid;"><span class="percentage">1234% 달성</span></div>
-									<div class="rk_col3_row2"><!-- 여백 --></div>
+									<div class="rk_col3_row1" style="display: grid; text-align:right;"><span class="percentage">1234% 달성</span></div>
+									<div class="rk_col3_row2"><%-- 여백 --%></div>
 								</div>
 							</div>
 						</div>
@@ -277,12 +283,12 @@
 			<div class="ffh_frame1 fl">
 				<div class="ffh_frame1_top fl">
 					<div class="ffh_frame1_top_col1 fl">
-						<h2 class="title_text">신규 프로젝트</h2>
+						<h2 class="title_text" style="margin-top: 40px;">✨ 신규 프로젝트 ✨</h2>
 					</div>
 					<div class="ffh_frame1_top_col2 fl">
 						<div class="ffh_frame1_top_col2_row1"></div>
 						<div class="ffh_frame1_top_col2_row2">
-							<div class="ffh_frame1_top_col2_row2_left fl more_left_text">신규 프로젝트</div>
+							<div class="ffh_frame1_top_col2_row2_left fl more_left_text"><%-- 여백 --%></div>
 							<div class="ffh_frame1_top_col2_row2_right fl"><a href="#"><button type="button" class="more_btn">더보기</button></a></div>
 						</div>
 					</div>
@@ -294,7 +300,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">111% 달성</span></div>
@@ -308,7 +314,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">555% 달성</span></div>
@@ -322,7 +328,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">346% 달성</span></div>
@@ -336,7 +342,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">172% 달성</span></div>
@@ -350,7 +356,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">340% 달성</span></div>
@@ -364,7 +370,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">100% 달성</span></div>
@@ -378,7 +384,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">170% 달성</span></div>
@@ -392,7 +398,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">5521% 달성</span></div>
@@ -406,7 +412,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">123% 달성</span></div>
@@ -420,7 +426,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">668% 달성</span></div>
@@ -433,12 +439,12 @@
 			<div class="ffh_frame1 fl">
 				<div class="ffh_frame1_top fl">
 					<div class="ffh_frame1_top_col1 fl">
-						<h2 class="title_text">마감임박 프로젝트</h2>
+						<h2 class="title_text" style="margin-top: 40px;">⏱ 마감임박 프로젝트 ⏱</h2>
 					</div>
 					<div class="ffh_frame1_top_col2 fl">
 						<div class="ffh_frame1_top_col2_row1"></div>
 						<div class="ffh_frame1_top_col2_row2">
-							<div class="ffh_frame1_top_col2_row2_left fl more_left_text">마감임박 프로젝트</div>
+							<div class="ffh_frame1_top_col2_row2_left fl more_left_text"><%-- 여백 --%></div>
 							<div class="ffh_frame1_top_col2_row2_right fl"><a href="#"><button type="button" class="more_btn">더보기</button></a></div>
 						</div>
 					</div>
@@ -450,7 +456,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">466% 달성</span></div>
@@ -464,7 +470,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">777% 달성</span></div>
@@ -478,7 +484,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">570% 달성</span></div>
@@ -492,7 +498,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">101% 달성</span></div>
@@ -506,7 +512,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">196% 달성</span></div>
@@ -520,7 +526,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">2500% 달성</span></div>
@@ -534,7 +540,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">170% 달성</span></div>
@@ -548,7 +554,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">3333% 달성</span></div>
@@ -562,7 +568,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">190% 달성</span></div>
@@ -576,7 +582,7 @@
 							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
 						</div>
 						<div class="pr3">
-							<div class="pr3_r1"><a href="#">언더웨어</a></div>
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">200% 달성</span></div>
@@ -586,6 +592,36 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="ffh_selfAdv" style="border: 1px solid red">
+			광고
+			<br>
+			광고ㅂㅈㄷㅈㅂㄷㅈㅂㄷㅈㅂㄷㅂㅈㄷ
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
+			광고
+			<br>
 		</div>
 	</div>
 	
