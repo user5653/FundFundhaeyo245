@@ -8,14 +8,14 @@
 <link rel="stylesheet" href="resources/css/footer.css">
 </head>
 <body>
-	<div class="footer_outer font_outer" style="border-bottom: 1px solid lightgray;">
+	<div class="footer_outer" style="border-bottom: 1px solid lightgray;">
         <%-- 전체 레이아웃 --%>
         <div class="ffh_wrap">
 			<div class="ffh_footer">
 		        <div class="ffh_footer_top fl" style="margin-top: 10px">
-		            <div class="ffh_footer_top_left fl">
+		            <div class="ffh_footer_top_left fl font_outer">
 		                <div class="ffh_footer_top_left1 fl">
-		                    <a href="#" onclick="moveToCompanyIntroduction();">뻔뻔해요</a>
+		                    <a onclick="moveToCompanyIntroduction();">뻔뻔해요</a>
 		                </div>
 		                <div class="ffh_footer_top_left2 fl">
 		                    <%-- 이용약관 모달 --%>
@@ -30,7 +30,7 @@
 		                    <button id="btn-open-modal3" class="btn-open-modal">프로젝트 등록 심사 기준</button>
 		                </div>
 		                <div class="ffh_footer_top_left5 fl">
-		                	<a href="#" onclick="moveToHelpCenter();">고객센터</a>
+		                	<a onclick="moveToHelpCenter();">고객센터</a>
 		                </div>
 		            </div>
 		            <div class="ffh_footer_top_middle fl">
@@ -41,30 +41,31 @@
 		            </div>
 		        </div>
 		        <div class="ffh_footer_middle fl">
-		            <p class="p1" style="font-size:15px;">
+		            <p class="p1 font_sejong_outer" style="font-size:13px;">
 		            	회사명 : (주)KH세미프로젝트_뻔뻔해요 &nbsp;&nbsp;|&nbsp;&nbsp; 
 		            	주소 : 서울특별시 강남구 테헤란로14길 6 남도빌딩 3F &nbsp;&nbsp;|&nbsp;&nbsp; 
-		            	대표 : 김재영 &nbsp;&nbsp;|&nbsp;&nbsp; 
+		            	대표 : 김시연 &nbsp;&nbsp;|&nbsp;&nbsp; 
 		            	사업자등록번호 : KH-SEMI-FFHY &nbsp;&nbsp;|&nbsp;&nbsp; 
 		            	통신판매업 신고번호 : 2024-서울서초-뻔뻔하조 <br>
 						대표번호 : 02-1234-FFHY &nbsp;&nbsp;|&nbsp;&nbsp;
 						메일주소 : khproject1st@gmail.com <br>
 					</p>
-		            <p class="p2" style="font-size:15px; margin: 10px 0;">뻔뻔해요는 프로젝트의 당사자가 아니며, 직접적인 통신판매를 진행하지 않습니다. 프로젝트의 완수 및 선물제공의 책임은 해당 프로젝트의 창작자에게 있으며, 프로젝트와 관련하여 후원자와 발생하는 법적 분쟁에 대한 책임은 해당 창작자가 부담합니다.</p>
-		            <p class="p3" style="font-size:13px; margin: 10px 0; text-align: center;">Copyright © 2024 FundFundhaeyo Institute All Right Reserved</p>
+		            <p class="p2 font_outer" style="font-size:15px; margin: 10px 0;">뻔뻔해요는 프로젝트의 당사자가 아니며, 직접적인 통신판매를 진행하지 않습니다. 프로젝트의 완수 및 선물제공의 책임은 해당 프로젝트의 창작자에게 있으며, 프로젝트와 관련하여 후원자와 발생하는 법적 분쟁에 대한 책임은 해당 창작자가 부담합니다.</p>
+		            <p class="p3 font_outer" style="font-size:13px; margin: 10px 0; text-align: center;">Copyright © 2024 FundFundhaeyo Institute All Right Reserved</p>
 		        </div>
 		    </div>
 	    </div>
     </div>
+    
     <script>
     	<%-- 뻔뻔해요 소개 페이지 이동 --%>
       	function moveToCompanyIntroduction(){
-      		location.href = "<%= request.getContextPath() %>/introduction";
+      		location.href = "<%= request.getContextPath() %>/introduction.cp";
       	}
       	
       	<%-- 고객센터 페이지 이동 --%>
       	function moveToHelpCenter(){
-      		location.href = "<%= request.getContextPath() %>/help";
+      		location.href = "<%= request.getContextPath() %>/help.cp";
       	}
     </script>
     <%-- ============================ 푸터바 모달 시작 ============================ --%>
