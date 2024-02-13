@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class moveToCompanyIntroductionController
  */
-@WebServlet("/introduction")
+@WebServlet("/introduction.cp")
 public class MoveToCompanyIntroductionController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
