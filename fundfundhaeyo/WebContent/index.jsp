@@ -64,7 +64,7 @@
 							<div class="ffh_content_top_left1_col2_row1"></div>
 							<div class="ffh_content_top_left1_col2_row2">
 								<div class="ffh_content_top_left1_col2_row2_col1 fl more_left_text"><%-- 여백 --%></div>
-								<div class="ffh_content_top_left1_col2_row2_col2 fl"><a href="#"><button type="button" class="more_btn">더보기</button></a></div>
+								<div class="ffh_content_top_left1_col2_row2_col2 fl"><a href="<%= contextPath %>/all.pr"><button type="button" class="more_btn" style="background-color:white; margin-top: 15px;">더보기</button></a></div>
 							</div>
 						</div>
 					</div>
@@ -72,7 +72,7 @@
 						<div class="ffh_content_top_left2_all fl">
 							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
-								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
+								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="200px" height="180px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
 								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -86,7 +86,7 @@
 						<div class="ffh_content_top_left2_all fl">
 							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
-								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
+								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="200px" height="180px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
 								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -100,7 +100,7 @@
 						<div class="ffh_content_top_left2_all fl">
 							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
-								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
+								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="200px" height="180px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
 								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -114,7 +114,7 @@
 						<div class="ffh_content_top_left2_all fl">
 							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
-								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
+								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="200px" height="180px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
 								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -128,7 +128,7 @@
 						<div class="ffh_content_top_left2_all fl">
 							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
-								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
+								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="200px" height="180px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
 								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -142,7 +142,7 @@
 						<div class="ffh_content_top_left2_all fl">
 							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
-								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
+								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="200px" height="180px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
 								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -156,7 +156,7 @@
 						<div class="ffh_content_top_left2_all fl">
 							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
-								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
+								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="200px" height="180px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
 								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -170,7 +170,7 @@
 						<div class="ffh_content_top_left2_all fl">
 							<div class="ffh_content_top_left2_p1_row1 pr1"><%-- 여백 --%></div>
 							<div class="ffh_content_top_left2_p1_row2 pr2">
-								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="219px" height="219px"></a>
+								<a href="#"><img src="resources/image/temp2.jpg" alt="" width="200px" height="180px"></a>
 							</div>
 							<div class="ffh_content_top_left2_p1_row3 pr3">
 								<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -276,7 +276,7 @@
 						</div>
 					</div>
 					<div class="ffh_content_top_right_row3">
-						<a href="#"><button style="width: 100%; height: 50%; border-radius: 10px; padding: 10px 30px;">인기 프로젝트 더보기</button></a>
+						<a href="<%= contextPath %>/rank.pr"><button style="width: 100%; height: 50%; border-radius: 10px; padding: 10px 30px;">인기 프로젝트 더보기</button></a>
 					</div>
 				</div>
 			</div>
@@ -289,15 +289,15 @@
 						<div class="ffh_frame1_top_col2_row1"></div>
 						<div class="ffh_frame1_top_col2_row2">
 							<div class="ffh_frame1_top_col2_row2_left fl more_left_text"><%-- 여백 --%></div>
-							<div class="ffh_frame1_top_col2_row2_right fl"><a href="#"><button type="button" class="more_btn">더보기</button></a></div>
+							<div class="ffh_frame1_top_col2_row2_right fl"><a href="<%= contextPath %>/new.pr"><button type="button" class="more_btn" style="background-color:white; margin-top: 15px;">더보기</button></a></div>
 						</div>
 					</div>
 				</div>
 				<div class="ffh_frame1_body fl">
-					<div class="ffh_fream2 fl">
+					<div class="ffh_frame2 fl" >
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -308,10 +308,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin-left: 18px">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -322,10 +322,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin: 0 19px;">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -336,10 +336,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin-right: 18px">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -350,10 +350,24 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl">
+					<div class="ffh_frame2 fl" style="margin:0">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
+						</div>
+						<div class="pr3">
+							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
+							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
+							<div class="pr3_r3">
+								<div class="pr3_r3_col1 fl"><span class="percentage">111% 달성</span></div>
+								<div class="pr3_r3_col2 fl"></div>
+							</div>
+						</div>
+					</div>
+					<div class="ffh_frame2 fl">
+						<div class="pr1"></div>
+						<div class="pr2">
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -364,10 +378,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -378,10 +392,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin-left: 18px">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -392,10 +406,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin: 0 19px;">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -406,30 +420,16 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin-right: 18px;">
+					<div class="ffh_frame2 fl" style="margin:0;">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
 							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
 							<div class="pr3_r3">
 								<div class="pr3_r3_col1 fl"><span class="percentage">123% 달성</span></div>
-								<div class="pr3_r3_col2 fl"></div>
-							</div>
-						</div>
-					</div>
-					<div class="ffh_fream2 fl">
-						<div class="pr1"></div>
-						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
-						</div>
-						<div class="pr3">
-							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
-							<div class="pr3_r2"><a href="#"><strong class="ptitle">[모아주문] 10년차 디자이너의 진심트렁크, 누드팬츠</strong></a></div>
-							<div class="pr3_r3">
-								<div class="pr3_r3_col1 fl"><span class="percentage">668% 달성</span></div>
 								<div class="pr3_r3_col2 fl"></div>
 							</div>
 						</div>
@@ -445,15 +445,15 @@
 						<div class="ffh_frame1_top_col2_row1"></div>
 						<div class="ffh_frame1_top_col2_row2">
 							<div class="ffh_frame1_top_col2_row2_left fl more_left_text"><%-- 여백 --%></div>
-							<div class="ffh_frame1_top_col2_row2_right fl"><a href="#"><button type="button" class="more_btn">더보기</button></a></div>
+							<div class="ffh_frame1_top_col2_row2_right fl"><a href="<%= contextPath %>/deadline.pr"><button type="button" class="more_btn" style="background-color:white; margin-top: 15px;">더보기</button></a></div>
 						</div>
 					</div>
 				</div>
 				<div class="ffh_frame1_body fl">
-					<div class="ffh_fream2 fl">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -464,10 +464,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin-left: 18px">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -478,10 +478,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin: 0 19px;">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -492,10 +492,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin-right: 18px">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -506,10 +506,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl">
+					<div class="ffh_frame2 fl" style="margin:0;">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -520,10 +520,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -534,10 +534,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin-left: 18px">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -548,10 +548,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin: 0 19px;">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -562,10 +562,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl" style="margin-right: 18px;">
+					<div class="ffh_frame2 fl">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -576,10 +576,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="ffh_fream2 fl">
+					<div class="ffh_frame2 fl" style="margin:0;">
 						<div class="pr1"></div>
 						<div class="pr2">
-							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="280px" height="212px"></a>
+							<a href="#"><img src="resources/image/temp2.jpg" alt="" width="270px" height="200px"></a>
 						</div>
 						<div class="pr3">
 							<div class="pr3_r1"><a href="#" class="pca">언더웨어</a></div>
@@ -593,18 +593,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="ffh_selfAdv" style="border: 1px solid red">
+		<br><br><br>
+		<div class="ffh_selfAdv" style="border: 1px solid red;">
 			광고
 			<br>
 			광고ㅂㅈㄷㅈㅂㄷㅈㅂㄷㅈㅂㄷㅂㅈㄷ
-			<br>
-			광고
-			<br>
-			광고
-			<br>
-			광고
-			<br>
-			광고
 			<br>
 			광고
 			<br>
