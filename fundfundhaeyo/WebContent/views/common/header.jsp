@@ -27,8 +27,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <style>
+	<%-- 경북대진리체 --%>
 	@font-face {font-family: 'KNUTRUTHTTF';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/KNUTRUTHTTF.woff2') format('woff2');font-weight: normal;font-style: normal;}
 	.font_outer{font-family: KNUTRUTHTTF;font-weight: normal;font-style: normal;}
+	<%-- 세종병원체 --%>
+	@font-face {font-family: 'SejonghospitalBold';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SejonghospitalBold.woff2') format('woff2');font-weight: 400;font-style: normal;}
+	.font_sejong_outer{font-family: SejonghospitalBold;font-weight: 400;font-style: normal;}	
 </style>
 <body>
     <div class="header_outer font_outer">
@@ -42,15 +46,15 @@
                         <div class="ffh_header_center_left fl">
                             <div class="ffh_header_center_left1 fl"><a href="<%= contextPath %>"><div class="bg_image"></div></a></div>
                             <div class="ffh_header_center_left2 fl"><a href="<%= contextPath %>" class="heada headtext texthover <%= request.getRequestURI().equals(contextPath+"/") ? "active" : "" %>">홈<span class="bottom-bar"></span></a></div>
-                            <div class="ffh_header_center_left3 fl"><a href="<%= contextPath %>/all" class="heada headtext texthover <%= request.getRequestURI().equals(contextPath+"/all") ? "active" : "" %>">전체<span class="bottom-bar"></span></a></div>
-                            <div class="ffh_header_center_left4 fl"><a href="#" class="heada headtext texthover">카테고리</a></div>
-                            <div class="ffh_header_center_left5 fl"><a href="#" class="heada headtext texthover">인기</a></div>
-                            <div class="ffh_header_center_left6 fl"><a href="#" class="heada headtext texthover">신규</a></div>
-                            <div class="ffh_header_center_left7 fl"><a href="#" class="heada headtext texthover">마감임박</a></div>
+                            <div class="ffh_header_center_left3 fl"><a href="<%= contextPath %>/all.pr" class="heada headtext texthover <%= "all".equals(request.getAttribute("currentPage")) ? "active" : "" %>">전체<span class="bottom-bar"></span></a></div>
+                            <div class="ffh_header_center_left4 fl"><a href="<%= contextPath %>/category.pr" class="heada headtext texthover <%= "category".equals(request.getAttribute("currentPage")) ? "active" : "" %>">카테고리<span class="bottom-bar"></span></a></div>
+                            <div class="ffh_header_center_left5 fl"><a href="<%= contextPath %>/rank.pr" class="heada headtext texthover <%= "rank".equals(request.getAttribute("currentPage")) ? "active" : "" %>">인기<span class="bottom-bar"></span></a></div>
+                            <div class="ffh_header_center_left6 fl"><a href="<%= contextPath %>/new.pr" class="heada headtext texthover <%= "new".equals(request.getAttribute("currentPage")) ? "active" : "" %>">신규<span class="bottom-bar"></span></a></div>
+                            <div class="ffh_header_center_left7 fl"><a href="<%= contextPath %>/deadline.pr" class="heada headtext texthover <%= "deadline".equals(request.getAttribute("currentPage")) ? "active" : "" %>">마감임박<span class="bottom-bar"></span></a></div>
                             <div class="ffh_header_center_left8 fl"></div>
                         </div>
                         <div class="ffh_header_center_right fl">
-                            <div class="ffh_header_center_right1 fl"><a href="#" class="heada headtext texthover">프로젝트 등록</a></div>
+                            <div class="ffh_header_center_right1 fl"><a href="<%= contextPath %>/moveToEnrollIntroduction.pr" class="heada headtext texthover">프로젝트 등록</a></div>
                             <div class="ffh_header_center_right2 fl"><a href="#" class="heada" onclick="moveToProductSearch();"><i class="fa-solid fa-magnifying-glass fa-xl" style="display: flex; justify-content: center; line-height: 150%;"></i></a></div>
                             <% if(loginUser == null) {%>
                             <%-- 로그인 전 --%>
@@ -71,7 +75,7 @@
 								    </div>
 								</div>
 							</div>
-                            <div class="ffh_header_center_right6 fl headtext" style="text-align:right"><%= loginUser.getUserName() %> 님</div>
+                            <div class="ffh_header_center_right6 fl headtext" style="text-align:right"><%= loginUser.getNickname() %> 님💜</div>
                             <% } %>
                         </div>
                         <script>
