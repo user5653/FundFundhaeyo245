@@ -10,14 +10,14 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ProductSortAll
  */
-@WebServlet("/all")
-public class ProductSortAll extends HttpServlet {
+@WebServlet("/all.pr")
+public class ProductSortAllController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ProductSortAll() {
+    public ProductSortAllController() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,6 +27,7 @@ public class ProductSortAll extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TBU
+		request.setAttribute("currentPage", "all");
 		request.getRequestDispatcher("views/product/productSortAll.jsp").forward(request, response);
 	}
 
