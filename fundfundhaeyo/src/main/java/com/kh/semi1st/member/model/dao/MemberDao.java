@@ -44,14 +44,19 @@ public class MemberDao {
 				m = new Member(rset.getInt("user_no"), 
 							   rset.getString("user_id"), 
 							   rset.getString("user_pwd"), 
-							   rset.getString("user_name"), 
+							   rset.getString("user_name"),
+							   rset.getString("user_ssn"),
+							   rset.getString("nickname"),
 							   rset.getString("phone"), 
 							   rset.getString("email"), 
 							   rset.getString("address"), 
-							   rset.getString("interest"), 
+							   rset.getString("profile"),
+							   rset.getInt("grade"),
+							   rset.getString("marketing"),
 							   rset.getDate("enroll_date"),
 							   rset.getDate("modify_date"),
-							   rset.getString("status"));
+							   rset.getString("user_type"),
+							   rset.getString("user_status"));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
