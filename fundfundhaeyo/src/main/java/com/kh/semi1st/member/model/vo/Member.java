@@ -8,30 +8,41 @@ public class Member {
 	private String userId;
 	private String userPwd;
 	private String userName;
+	private String userSsn;
+	private String nickname;
 	private String phone;
 	private String email;
 	private String address;
-	private String interest;
+	private String profile;
+	private int grade;
+	private String marketing;
 	private Date enrollDate;
 	private Date modifyDate;
-	private String status;
+	private String userType;
+	private String userStatus;
 	
 	public Member() {}
 
-	public Member(int userNo, String userId, String userPwd, String userName, String phone, String email,
-			String address, String interest, Date enrollDate, Date modifyDate, String status) {
+	public Member(int userNo, String userId, String userPwd, String userName, String userSsn, String nickname,
+			String phone, String email, String address, String profile, int grade, String marketing, Date enrollDate,
+			Date modifyDate, String userType, String userStatus) {
 		super();
 		this.userNo = userNo;
 		this.userId = userId;
 		this.userPwd = userPwd;
 		this.userName = userName;
+		this.userSsn = userSsn;
+		this.nickname = nickname;
 		this.phone = phone;
 		this.email = email;
 		this.address = address;
-		this.interest = interest;
+		this.profile = profile;
+		this.grade = grade;
+		this.marketing = marketing;
 		this.enrollDate = enrollDate;
 		this.modifyDate = modifyDate;
-		this.status = status;
+		this.userType = userType;
+		this.userStatus = userStatus;
 	}
 
 	public int getUserNo() {
@@ -66,6 +77,22 @@ public class Member {
 		this.userName = userName;
 	}
 
+	public String getUserSsn() {
+		return userSsn;
+	}
+
+	public void setUserSsn(String userSsn) {
+		this.userSsn = userSsn;
+	}
+
+	public String getNickname() {
+		return nickname;
+	}
+
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
+	}
+
 	public String getPhone() {
 		return phone;
 	}
@@ -90,12 +117,28 @@ public class Member {
 		this.address = address;
 	}
 
-	public String getInterest() {
-		return interest;
+	public String getProfile() {
+		return profile;
 	}
 
-	public void setInterest(String interest) {
-		this.interest = interest;
+	public void setProfile(String profile) {
+		this.profile = profile;
+	}
+
+	public int getGrade() {
+		return grade;
+	}
+
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+
+	public String getMarketing() {
+		return marketing;
+	}
+
+	public void setMarketing(String marketing) {
+		this.marketing = marketing;
 	}
 
 	public Date getEnrollDate() {
@@ -114,19 +157,29 @@ public class Member {
 		this.modifyDate = modifyDate;
 	}
 
-	public String getStatus() {
-		return status;
+	public String getUserType() {
+		return userType;
 	}
 
-	public void setStatus(String status) {
-		this.status = status;
+	public void setUserType(String userType) {
+		this.userType = userType;
+	}
+
+	public String getUserStatus() {
+		return userStatus;
+	}
+
+	public void setUserStatus(String userStatus) {
+		this.userStatus = userStatus;
 	}
 
 	@Override
 	public String toString() {
 		return "Member [userNo=" + userNo + ", userId=" + userId + ", userPwd=" + userPwd + ", userName=" + userName
-				+ ", phone=" + phone + ", email=" + email + ", address=" + address + ", interest=" + interest
-				+ ", enrollDate=" + enrollDate + ", modifyDate=" + modifyDate + ", status=" + status + "]";
+				+ ", userSsn=" + userSsn + ", nickname=" + nickname + ", phone=" + phone + ", email=" + email
+				+ ", address=" + address + ", profile=" + profile + ", grade=" + grade + ", marketing=" + marketing
+				+ ", enrollDate=" + enrollDate + ", modifyDate=" + modifyDate + ", userType=" + userType
+				+ ", userStatus=" + userStatus + "]";
 	}
-	
+
 }
