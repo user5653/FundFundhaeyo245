@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>뻔뻔해요</title>
+<title>뻔뻔해요2</title>
 <link rel="stylesheet" href="resources/css/memberLoginForm.css">
 </head>
 <body>
